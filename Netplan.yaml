@@ -13,5 +13,6 @@ network:
 
   version: 2
   
+  sudo netplan apply
   utiliser docker sans passer par sudo:
   sudo usermod -aG docker ubuntu
